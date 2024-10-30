@@ -9,5 +9,7 @@ sass:
 
 assets:
   - style.scss
+
+runs-on: self-hosted
 # show_downloads: true
 # google_analytics: [Your Google Analytics tracking ID]
