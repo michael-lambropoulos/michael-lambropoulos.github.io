@@ -60,4 +60,4 @@ Connect with me on social media if you'd like:
 
 - [LinkedIn](https://www.linkedin.com/in/michael-lambropoulos/)
 
-Thank you for visiting my page!
+Thank you for visiting my page! :)
