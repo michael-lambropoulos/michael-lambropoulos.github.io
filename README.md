@@ -27,20 +27,16 @@ Here are some of the publications I've previously worked on:
 ## My Projects
 A short summary of the things I'm currently preoccupying myself with :)
 
+## [Project 1: My Garden](project_garden.md)
 <div>
-    <h3>
-      <a href="{{ "/project_garden"}}">Project 1: My Garden</a>
-    </h3>
     <div class="progress-bar">
         <div class="progress" style="width: 10%;"></div>
     </div>
     <p>Completion: 10%</p>
 </div>
 
+## [Project 2: Animation](project_animation.md)
 <div>
-    <h3>
-      <a href="{{ "/project_animation"}}">Project 1: Animation</a>
-    </h3>
     <div class="progress-bar">
         <div class="progress" style="width: 10%;"></div>
     </div>
