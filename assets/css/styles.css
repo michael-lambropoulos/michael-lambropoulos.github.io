@@ -1,0 +1,77 @@
+.progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    margin: 5px 0;
+}
+
+.progress {
+    background-color: #4caf50; /* Green color */
+    height: 100%;
+    transition: width 0.4s; /* Smooth transition */
+}
+
+/* General styles for the vertical navigation bar */
+.vertical-nav {
+    width: 200px; /* Width of the navigation bar */
+    background-color: #f3f3f3; /* Background color */
+    position: fixed; /* Keep the navigation fixed */
+    height: 100%; /* Full height */
+    overflow-y: auto; /* Scroll if the content is too long */
+    padding: 20px; /* Padding for the content */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+}
+
+/* Styling for the navigation links */
+.vertical-nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.vertical-nav ul li {
+    margin: 10px 0; /* Spacing between links */
+}
+
+.vertical-nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+    padding: 10px; /* Padding for the links */
+    display: block; /* Make the entire area clickable */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+/* Change background color on hover */
+.vertical-nav ul li a:hover {
+    background-color: #4caf50; /* Green background on hover */
+    color: white; /* White text on hover */
+}
+
+/* Content styles to create space for the navigation bar */
+.content {
+    margin-left: 220px; /* Space for the vertical nav */
+    padding: 20px; /* Padding for content */
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .vertical-nav {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Auto height */
+        position: relative; /* Change position */
+    }
+
+    .content {
+        margin-left: 0; /* Reset margin */
+    }
+
+    .vertical-nav ul {
+        display: flex; /* Use flexbox */
+        flex-wrap: wrap; /* Wrap items */
+    }
+
+    .vertical-nav ul li {
+        flex: 1 1 50%; /* Adjusts link width */
+    }
+}
